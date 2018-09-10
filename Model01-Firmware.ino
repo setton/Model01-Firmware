@@ -209,10 +209,10 @@ KEYMAPS(
 #elif defined (PRIMARY_KEYMAP_CUSTOM)
   // Edit this keymap to make a custom layout
   [PRIMARY] = KEYMAP_STACKED
-  (___,          Key_1, Key_2, Key_3, Key_4, Key_5, Key_LEDEffectNext,
+  (Key_Escape,   Key_1, Key_2, Key_3, Key_4, Key_5, Key_LEDEffectNext,
    Key_Tab, Key_Q, Key_W, Key_E, Key_R, Key_T, Key_Backtick,
-   Key_PageUp,   Key_A, Key_S, Key_D, Key_F, Key_G,
-   Key_PageDown, Key_Z, Key_X, Key_C, Key_V, Key_RightAlt, Key_Escape,
+   Key_LeftShift, Key_A, Key_S, Key_D, Key_F, Key_G,
+   Key_PageDown,  Key_Z, Key_X, Key_C, Key_V, Key_RightAlt, M(MACRO_ANY),
    Key_LeftControl, Key_Backspace, Key_LeftGui, Key_LeftShift,
    ShiftToLayer(FUNCTION),
 
